@@ -42,3 +42,37 @@ body{
     margin-right: 124px;
 }
 
+/* Main section start  */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.main-container{
+    align-items: center;
+    width: 1160px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-gap: 17px;
+}
+.player{
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.player img{
+    width: 100%;
+}
+.player-name{
+    font-size: 28px;
+    font-weight: 700;
+    color: #18191F;
+}
+.player-details{
+    font-size: 16px;
+    color: #6C6C6C;
+}
