@@ -52,7 +52,7 @@ main{
     align-items: center;
     width: 1160px;
     margin-top: 70px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .players{
     display: grid;
@@ -75,4 +75,10 @@ main{
 .player-details{
     font-size: 16px;
     color: #6C6C6C;
+}
+
+/* Video section  */
+.video{
+    text-align: center;
+    font-size: 40px;
 }
