@@ -96,18 +96,20 @@ main{
 .form input{
     width: 400px;
     height: 40px;
+    font-size: 1.3em;
+    padding-left: 5px;
     border-radius: 5px;
-    border: 2px solid #2D25A0;
+    border: 2px solid #10437A;
 }
 .newsletter-header{
     font-size: 40px;
     text-align: center;
 }
 .newsletter-header span{
-    color: #2D25A0;
+    color: #10437A;
 }
 .form button{
-    background-color: #E02C6D;
+    background-color: #10437A;
     padding: 10px 24px;
     border: none;
     margin-left: 20px;
@@ -115,7 +117,7 @@ main{
     border: 1px solid #df9fb6;
 }
 .form button:hover{
-    background-color: #2D25A0;
+    background-color: #E02C6D;
 }
 .form button a{
     text-decoration: none;
@@ -192,6 +194,47 @@ footer-section img{
    .main-container, .footer-section{
         width: 100%;
     }
+    /* newsleter  */
+    
+   .form{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+    .form input{
+        
+        width:300px;
+        height: 30px;
+        font-size: 1.3em;
+        padding-left: 5px;
+        border-radius: 5px;
+        border: 2px solid #10437A;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    .newsletter-header{
+        font-size: 30px;
+        text-align: center;
+    
+    }
+   .form button{
+        background-color: #10437A;
+        padding: 10px 24px;
+        border: none;
+        margin-left: 20px;
+        border-radius: 5px;
+        border: 1px solid #df9fb6;
+    }
+    
+    .form button a{
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500px;
+        color: #ffffff;
+    }
+/* Newsleter end      */
+
     .players, .footer-section{
         grid-template-columns: repeat(1, 1fr);
     }
