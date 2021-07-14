@@ -14,6 +14,7 @@ body{
 .container{
     background-color: #2D25A0;
     height: 600px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,4 +82,57 @@ main{
 .video{
     text-align: center;
     font-size: 40px;
+}
+
+/* Footer  */
+footer{
+    display: flex
+    flex-direction: column;
+    align-items: center;     
+}
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 50px;  
+    margin-bottom:20px;
+}
+
+footer-section img{
+    width: 262px;
+    height: 110px;
+}
+.social-icon{
+    font-size: 24px;
+}
+.social-icon .fab{
+    padding-right: 16px;
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 688px){
+
+    .main-container, .footer-section{
+        width: 100%;
+    }
+    .players, .footer-section{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player, .footer-section{
+        flex-direction: column;
+    }
+}
+
+/* Tablet Devices */
+@media only screen and (min-width: 689px) and (max-width: 993px) {
+    .main-container{
+        width: 100%;
+    }
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .player{
+        flex-direction: column;
+    }
 }
