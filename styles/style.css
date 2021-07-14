@@ -157,6 +157,25 @@ footer-section img{
 
 /* Tablet Devices */
 @media only screen and (min-width: 689px) and (max-width: 993px) {
+    .container{
+        display: block;
+        background-color: #2D25A0;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 850px;
+        padding-top: 60px;   
+    }
+    .header-image {
+        margin-right: 124px;
+        margin-left: 100px;
+    }
+    .header-image img{
+        display: block;
+        width: 440px;
+        height: 370px;
+        padding: 30px;
+    }
     .main-container{
         width: 100%;
     }
